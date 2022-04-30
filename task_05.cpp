@@ -116,7 +116,7 @@ int main()
 	int size3 = 0;
 	int* Arr3 = positive_numbers(Arr, size, size3);  // создаем массив с положительными элементами
 
-	std::cout << "\nМассив с нулевыми элементами : \n";
+	std::cout << "\nМассив с положительными элементами : \n";
 	showArr(Arr3, size3);
 }
 
